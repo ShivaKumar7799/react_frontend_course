@@ -1,0 +1,21 @@
+.leftNavContainer{
+  display: flex;
+  column-gap: 20px;
+}
+.myntraLogo{
+  width: 53px;
+  height: 36px;
+  margin-left: 20px;
+}
+.navItems {
+  margin: auto;
+}
+.navItems > span {
+  color: #282c3f;
+  font-size: 14px;
+  padding: 0px 17px;
+  font-weight: 500;
+}
+.navItems sup {
+  color : red
+}

@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  box-sizing: border-box;
+  font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}

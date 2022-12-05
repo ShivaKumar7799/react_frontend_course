@@ -1,0 +1,41 @@
+.rightNavContainer{
+  display: flex;
+  column-gap: 20px;
+}
+.navSearchBar {
+  width: 375px;
+  height: 40px;
+  font-size: 14px;
+  height: 20px;
+  line-height: 24px;
+  color: #696e79;
+  padding: 20px 10px 18px 40px;
+  margin: 0;
+  outline: 0;
+  border: 1px solid #f5f5f6;
+  border-radius: 0 4px 4px 0;
+  border-left: 0;
+  background: #f5f5f6;
+  transform: translateX(-40px);
+}
+.searchIcon{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: translateX(-40px);
+}
+.navIcons{
+  display: flex;
+  column-gap: 25px;
+  margin-right: 20px;
+}
+.iconsBlock{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.iconsBlock > span {
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+}
