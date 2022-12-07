@@ -1,4 +1,6 @@
 import React from 'react'
+import Filter from './Array Methods/Filter'
+import Map from './Array Methods/Map'
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering'
 import ImportCss from './Importing Css/ImportCss'
 import InCludeJs from './InClude Js/InCludeJs'
@@ -10,7 +12,9 @@ function Basic() {
       {/* <ImportCss />
       <InCludeJs /> */}
       {/* <ConditionalRendering /> */}
-      <ReactFunction />
+      {/* <ReactFunction /> */}
+      {/* <Map /> */}
+      {/* <Filter /> */}
     </div>
   )
 }

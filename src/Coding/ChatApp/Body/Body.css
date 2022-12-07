@@ -1,0 +1,28 @@
+.wBodyContainer{
+  height: 90vh;
+  width: 100%;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E05AQH7XtWGnaMQhA/videocover-low/0/1640028543969?e=2147483647&v=beta&t=Ewu57RZTu_RttokLyP41FVwp6294bkxLaanyQv5o_1Q");
+  background-size: cover;
+}
+.rightPosition{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.rightPosition span{
+  background-color: #d9fdd3;
+  padding: 3px 5px;
+  margin: 3px;
+  border-radius: 5px;
+}
+.leftPosition{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.leftPosition span{
+  background-color: white;
+  padding: 3px 5px;
+  margin: 3px;
+  border-radius: 5px;
+}
