@@ -1,0 +1,15 @@
+.dataSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.submitSection{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.submitSection input{
+  text-align: center;
+  background-color: green;
+  color: white;
+}
