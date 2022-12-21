@@ -13,8 +13,8 @@ function App() {
       <Body />
       <Footer /> */}
       {/* <Coding /> */}
-      {/* <ChatApp /> */}
-      <Hooks />
+      <ChatApp />
+      {/* <Hooks /> */}
     </div>
   );
 }

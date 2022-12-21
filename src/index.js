@@ -4,10 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { configureStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
+import chatMessageReducer from './Coding/ChatApp/Redux/Features/ChatFeature'
+
+const store = configureStore({
+  reducer : {
+    chatMessages : chatMessageReducer
+  }
+})
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store = {store} >
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
